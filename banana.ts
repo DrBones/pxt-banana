@@ -22,6 +22,10 @@ namespace banana {
      */
     //% blockId=banana_bananas
     //% block="return this many bananas: $n"
+    //% block.loc.fr="retour $n"
+    //% jsdoc.loc.fr="Retour autant bananas: $n"
+    //% n.loc.fr="le bananas"
+    //% n.min=0 n.max=100
     export function bananas(n: number): number {
         return n;
     }
