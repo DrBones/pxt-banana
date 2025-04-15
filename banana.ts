@@ -11,18 +11,17 @@
  */
 
 // Icon unicode characters can be found at: http://fontawesome.io/icons/
-//% color=#c2b711 weight=100 icon="\uf1ec" block="Banana Blocks" advanced=false
+//% color=#ffd43a weight=100 icon="\uf0d1" block="Banana Blocks" advanced=false
 namespace banana {
 
     /**
      * How many bananas?
      *
      * This function is fully implemented in TypeScript.
-     *
      * @param n number of bananas
      */
     //% blockId=banana_bananas
-    //% block="how many bananas $n"
+    //% block="return this many bananas: $n"
     export function bananas(n: number): number {
         return n;
     }
@@ -31,7 +30,6 @@ namespace banana {
      * Add your bananas!
      *
      * This function is a shim and the micro:bit runs the C++ version.
-     *
      * @param n number of bananas
      */
     //% blockId=banana_banana_add
@@ -49,7 +47,6 @@ namespace banana {
      * This function is a shim and the micro:bit runs the C++ version.
      * The output of this function will depend on the version of the micro:bit
      * that runs it, V1 or V2.
-     *
      * @param n number of bananas
      */
     //% blockId=banana_banana_multiplier
